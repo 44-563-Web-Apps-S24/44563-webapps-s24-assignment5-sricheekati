@@ -11,7 +11,13 @@
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-</head>
+    <style>
+      .drink-image {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
 <body>
     <div class="container">
         <div class="row">
@@ -38,6 +44,37 @@
     However, the drink names in the second row are longer and require more horizontal space. 
     As the window width decreases, the longer drink names cannot fit within their respective columns, causing them to wrap onto the next line, thus breaking the row. 
     Therefore, the drink names break first due to their length and the limited horizontal space available.</p>
-
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="coffee.jpg" alt="Coffee" class="img-fluid drink-image">
+      </div>
+      <div class="col-sm-4">
+        <img src="hot_chocolate.jpg" alt="Hot Chocolate" class="img-fluid drink-image">
+      </div>
+      <div class="col-sm-4">
+        <img src="Expresso.jpg" alt="Espresso" class="img-fluid drink-image">
+      </div>
+    </div>
+    <h2>Thumbnail Images</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="coffee.jpg" alt="Coffee" class="img-fluid drink-image">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="hot_chocolate.jpg" alt="Hot Chocolate" class="img-fluid drink-image">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="Expresso.jpg" alt="Espresso" class="img-fluid drink-image">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
